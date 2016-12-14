@@ -1,0 +1,124 @@
+/*首页中的样式*/
+a,a:hover{
+    color: #555555;
+    text-decoration: none;
+}
+/*第一行*/
+.header{
+    color:#ffffff;
+    height:42px;
+}
+.header .row-one{
+    margin:0;
+    background:#00AE66;
+}
+.row-one>div{padding: 0;}
+.row-one .row_one2>ul{
+    margin:8px 15px 0 0;
+    text-align: center;
+}
+.row-one .row_one2>ul>li>a{
+    color:#ffffff;
+}
+.row-one ul>li>a{
+    font-size: 12px;
+}
+/*第二行*/
+.row-two{
+    height:60px;
+}
+.row-two .list_four{
+    height:42px;
+}
+.row-two .list_four>input{
+    height:42px;
+}
+.row-two .list_three{
+    background: #ffffff;
+    color:#3AAC6B;
+}
+
+/*有默认的padding或margin*/
+.container-fluid{padding: 0;}
+/*第三行*/
+.row-three{
+    border:1px solid #c5c5c5;
+    border-right: none;
+    border-left:none;
+    margin: 0;
+}
+.row-three>div{text-align: center;padding:10px 0;border-right:1px solid #c5c5c5; }
+.row-three>div:last-child{border-right: none;}
+.row-three>div ul{
+    width:400%;
+}
+.row-three>div:nth-child(2) ul{left:-100%;}
+.row-three>div:nth-child(3) ul{left:-200%;}
+.row-three>div:nth-child(4) ul{left:-300%;}
+
+.row-three>div ul>li{
+    position: relative;
+    border-bottom:1px solid #c5c5c5;
+    height:30px;
+    line-height:30px;
+}
+.row-three>div ul>li>input{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.row-three .more ul{margin: 0;padding: 0;}
+.row-three .more ul>ul:nth-child(1){
+    width:25%;
+    float: left;
+}
+.row-three .more ul>ul:nth-child(1)>li:nth-child(1){background: #f1f1f1;}
+.row-three .more ul>ul:nth-child(1)>li:nth-child(1) a{color: #30B371;}
+
+.row-three .more ul>ul:nth-child(2){
+    width:75%;
+    height: 200px;
+    border-left: 1px solid #ccc;
+    float: left;
+    background: #f1f1f1;
+}
+.row-three .more ul>ul:nth-child(2)>li{margin-left: 10px;}
+.bottom{clear: both;background: #fff;padding: 10px;border: 1px solid #ccc;border-right: none;border-left: none;}
+.bottom>button{padding: 0;}
+
+/*第四行*/
+.hot-list > .media{
+    padding:14px 11px;
+    border-bottom: 1px solid #c5c5c5;
+}
+.hot-list .media-heading{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hot-list .media-body > p{
+    margin: 0;
+    font-size:14px;
+}
+.hot-list .media-body .label{
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

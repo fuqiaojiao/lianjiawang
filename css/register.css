@@ -1,0 +1,54 @@
+/*首页中的样式*/
+a,a:hover{
+    color: #555555;
+    text-decoration: none;
+}
+/*第一部分  头部*/
+/*第一行*/
+.register .row-one>p{
+    height:42px;
+    line-height:42px;
+    border-bottom:1px solid #c5c5c5;
+}
+.register .row-one>p>input{
+    border: none;
+    height:40px;
+}
+.register .row-one>p>span>input{
+    display: inline-block;
+    text-align: center;
+    width:80px;
+    height:36px;
+    font-weight: 600;
+}
+.register .row-two{
+    margin: 0;
+    padding:0;
+}
+.register .row-two>button,.login .row-three>button{
+    width:100%;
+    height:42px;
+    line-height: 30px;
+}
+.register .row-three>ul>li,.login .row-four>ul>li{
+    float:left;
+}
+.register .row-three>ul>li>a.four2,.login .row-four>ul>li>a.four2{
+    color: #4fac6a;
+}
+/*登录页面*/
+/*第一行 */
+.login .row-one{text-align: center;}
+.login .common{border-bottom: 4px solid #39AC6A;}
+.login .common2{border-bottom: 4px solid #D1D1D1;}
+.login .row-one>div{font-size:14px;font-weight: 100;height:36px;line-height:36px;}
+.login .row-two>ul>li{border-bottom:1px solid #ccc;margin-left: 20px;}
+.login .row-two>ul>li>input{border:none;height:42px;line-height: 42px;}
+
+
+
+
+
+
+
+
